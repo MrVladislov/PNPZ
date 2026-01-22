@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Faktura xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://crd.gov.pl/wzor/2025/06/25/13775/">
+	<Naglowek>
+		<KodFormularza kodSystemowy="FA (3)" wersjaSchemy="1-0E">FA</KodFormularza>
+		<WariantFormularza>3</WariantFormularza>
+		<DataWytworzeniaFa>2026-01-22T00:34:34.46Z</DataWytworzeniaFa>
+		<SystemInfo>Aplikacja Podatnika KSeF</SystemInfo>
+	</Naglowek>
+	<Podmiot1>
+		<DaneIdentyfikacyjne>
+			<NIP>5251007278</NIP>
+			<Nazwa>IZBA SKARBOWA W WARSZAWIE</Nazwa>
+		</DaneIdentyfikacyjne>
+		<Adres>
+			<KodKraju>PL</KodKraju>
+			<AdresL1>ul. Test-Krucza 2B Warszawa 01-513 Warszawa</AdresL1>
+		</Adres>
+		<StatusInfoPodatnika>1</StatusInfoPodatnika>
+	</Podmiot1>
+	<Podmiot2>
+		<DaneIdentyfikacyjne>
+			<NIP>5260250274</NIP>
+			<Nazwa>MINISTERSTWO FINANSÓW</Nazwa>
+		</DaneIdentyfikacyjne>
+		<Adres>
+			<KodKraju>PL</KodKraju>
+			<AdresL1>ul. Test-Krucza 12 Warszawa 00-916 Warszawa</AdresL1>
+		</Adres>
+		<JST>2</JST>
+		<GV>2</GV>
+	</Podmiot2>
+	<Podmiot3>
+		<DaneIdentyfikacyjne>
+			<BrakID>1</BrakID>
+			<Nazwa>kod pracownika 001</Nazwa>
+		</DaneIdentyfikacyjne>
+		<Rola>6</Rola>
+		<NrKlienta>001</NrKlienta>
+	</Podmiot3>
+	<Fa>
+		<KodWaluty>PLN</KodWaluty>
+		<P_1>2026-01-22</P_1>
+		<P_1M>Warszawa PW</P_1M>
+		<P_2>vlahal01</P_2>
+		<P_6>2026-01-22</P_6>
+		<P_13_1>315.85</P_13_1>
+		<P_14_1>72.65</P_14_1>
+		<P_15>388.5</P_15>
+		<Adnotacje>
+			<P_16>2</P_16>
+			<P_17>2</P_17>
+			<P_18>2</P_18>
+			<P_18A>1</P_18A>
+			<Zwolnienie>
+				<P_19N>1</P_19N>
+			</Zwolnienie>
+			<NoweSrodkiTransportu>
+				<P_22N>1</P_22N>
+			</NoweSrodkiTransportu>
+			<P_23>2</P_23>
+			<PMarzy>
+				<P_PMarzyN>1</P_PMarzyN>
+			</PMarzy>
+		</Adnotacje>
+		<RodzajFaktury>VAT</RodzajFaktury>
+		<DodatkowyOpis>
+			<NrWiersza>3</NrWiersza>
+			<Klucz>uwaga</Klucz>
+			<Wartosc>szczotka była konieczna ponieważ spadło 45 cm śniegu</Wartosc>
+		</DodatkowyOpis>
+		<FaWiersz>
+			<NrWierszaFa>1</NrWierszaFa>
+			<P_7>paliwo 95</P_7>
+			<P_8A>litry</P_8A>
+			<P_8B>50</P_8B>
+			<P_9B>5.87</P_9B>
+			<P_11A>293.5</P_11A>
+			<P_12>23</P_12>
+		</FaWiersz>
+		<FaWiersz>
+			<NrWierszaFa>2</NrWierszaFa>
+			<P_7>płyn do spryskiwaczy</P_7>
+			<P_8A>ilość</P_8A>
+			<P_8B>1</P_8B>
+			<P_9B>50</P_9B>
+			<P_11A>50</P_11A>
+			<P_12>23</P_12>
+		</FaWiersz>
+		<FaWiersz>
+			<NrWierszaFa>3</NrWierszaFa>
+			<P_7>szczotka do odśnieżnia</P_7>
+			<P_8A>ilość</P_8A>
+			<P_8B>1</P_8B>
+			<P_9B>45</P_9B>
+			<P_11A>45</P_11A>
+			<P_12>23</P_12>
+		</FaWiersz>
+		<Platnosc>
+			<Zaplacono>1</Zaplacono>
+			<DataZaplaty>2026-01-21</DataZaplaty>
+			<FormaPlatnosci>1</FormaPlatnosci>
+		</Platnosc>
+		<WarunkiTransakcji>
+			<Umowy>
+				<DataUmowy>2026-01-01</DataUmowy>
+				<NrUmowy>umowa 1</NrUmowy>
+			</Umowy>
+		</WarunkiTransakcji>
+	</Fa>
+	<Stopka>
+		<Informacje>
+			<StopkaFaktury>uwaga do całej fakktury</StopkaFaktury>
+		</Informacje>
+	</Stopka>
+</Faktura>
